@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(253, 253, 255);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px;
+    background: white;
+    margin: 60px;
+    height: 65vh;
+    width: 100vh;
+}
+img{
+  
+    width:300px;
+}
+.content{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.container{
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-left: 20px;
+   font-size: 14px;   
+}
+.price{
+    margin-top:30px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size:35px;
+    color: green;
+    font-family: "Pacifico", cursive;
+}
+.price sup{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.button{
+    display: block;
+    text-align: center;
+    background: green;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
